@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Sarala&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #01003d 16.62%, #0307cc 85.61% );
+}
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+}
+
+.cabecalho-imagem {
+height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap:32px;
+}
+
+header nav a{
+    text-decoration:none;
+    color: rgb(211, 211, 211);
+   
+}
+
+header nav a:hover{
+    color: rgb(224, 167, 8);
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color:#ccd6e0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+ .cabecalho-menu-botao {
+    background-color: #ec5904;
+    width: 200px;
+    height:35px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 3s ease all;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+    color:#fdfdfd;
+ }
+
+ .cabecalho-menu-botao:hover {
+    background-color: #0307cc;
+    color:#ec5904;
+ }
+
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.2px solid  #FFF2E7 ;
+}
+
+.conteudo-principal {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+margin-left: 72px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    }
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    font-size: 64px;
+    color: #f06509
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:#fdfdfd;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ec5904;
+    width: 250px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 2s ease all;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+    color:#fdfdfd;
+    margin-left: 450px;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: white;
+    color:#ec5904;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+    margin-right: 72px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    margin-top: 48px;
+    margin-right: 72;
+    margin-left: 72;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffff;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color:#fdfdfd;
+    text-align: center;
+    line-height: 28px;
+   margin-bottom: 18px;
+   margin-left: 72px;
+   margin-right: 72px;
+   
+}
+
+.rodape {
+    padding: 60px;
+    border-top: 0.4px solid #FFF2E7;
+    place-items: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.wrapper .button {
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1) ;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+
+.wrapper.button:hover .icon{
+    color: #fff;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #e1306c;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #0e76a8;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: #05a354;
+}
+
+
+.wrapper .button .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+   transition: all 0.3s ease-out; 
+
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.wrapper .button:hover{
+    width: 200px;
+}
+
+
+
